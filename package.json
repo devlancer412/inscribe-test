@@ -1,0 +1,19 @@
+{
+  "name": "inscribe-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devlancer412/inscribe-test.git",
+  "author": "devlancer412 <ienjoycoding4u@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@sadoprotocol/ordit-sdk": "^2.3.12",
+    "cbor": "^9.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
